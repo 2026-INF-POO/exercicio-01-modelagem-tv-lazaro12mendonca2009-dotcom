@@ -4,7 +4,6 @@ int polegada;
   string marca;
   int voltagem = 220;
   int conal = 1;
-
 int aumentarvolume(){
   if (volume<10){
     volume++;
@@ -13,7 +12,8 @@ int aumentarvolume(){
 }
   int comsumo (){
     consumo = voltagem * polegada;
-    return consumo;
+    return consumo; 
+    
 }
 
 
